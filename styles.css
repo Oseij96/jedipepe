@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Stars in the sky.avif');
+    background-size: auto;
+    background-position: center;
+}
+
+.orbitron-regular {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.orbitron-small {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.mayTheForce {
+    margin-top: 20%;
+    color: green;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    /* Make h1 inline with the image */
+    margin-left: 20px;
+    /* Adjust as needed for spacing */
+    color: green;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+}
+
+p {
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+i {
+    margin-top: 175px;
+    margin-right: 50px;
+    color: green;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+#btn {
+    margin-top: 175px;
+    margin-right: 50px;
+    background-color: whitesmoke;
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 250px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Set the same height to make it a square */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+#btn:hover {
+    background-color: green;
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 250px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#floatingPepe {
+    position: absolute;
+    top: 5px;
+    /* Adjust as needed */
+    left: 5%;
+    animation: floatUpDown 2s infinite;
+}
+
+#floatingShip {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: 50px;
+    top: 10px;
+    /* Adjust as needed */
+    right: 5%;
+    animation: floatUpDown 2s infinite;
+}
+
+#darksideImg {
+    width: 1000px;
+    border-radius: 10px;
+}
+
+@keyframes floatUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
